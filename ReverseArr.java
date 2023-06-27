@@ -1,3 +1,4 @@
+//Reverse array or a string
 public class ReverseArr {
     public static void main(String[] args) {
         int[] arr = { 1, 2, 3, 4, 5 };
@@ -9,12 +10,14 @@ public class ReverseArr {
 
     }
 
+    // print an array
     static void printArray(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
     }
 
+    // reverse array
     static void rArray(int[] arr) {
         // reverse array through swapping the elements
         int l = 0;
@@ -28,6 +31,8 @@ public class ReverseArr {
             r--;
         }
     }
+    // reverse string or we can use toCharArray() method to convert the string into
+    // an character array and then reverse it by swapping the elements.
 
     static String revStr(String s) {
         String revS = "";
